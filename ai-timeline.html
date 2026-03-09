@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>AI Timeline Artifact</title>
+<title>Artifact 1 – Evolution of Artificial Intelligence</title>
 
 <style>
 
@@ -13,36 +13,24 @@ font-family:system-ui,Segoe UI,Roboto;
 margin:0;
 background:#f4f6f8;
 color:#333;
+line-height:1.6;
 }
 
 .container{
-max-width:900px;
+max-width:1000px;
 margin:auto;
 padding:60px 20px;
 }
 
 h1{
 text-align:center;
-margin-bottom:20px;
+margin-bottom:10px;
 }
 
-.timeline{
-border-left:4px solid #3b82f6;
-padding-left:30px;
-}
-
-.event{
+.subtitle{
+text-align:center;
+color:#666;
 margin-bottom:40px;
-}
-
-.year{
-font-weight:bold;
-color:#2563eb;
-margin-bottom:6px;
-}
-
-.event h3{
-margin:4px 0;
 }
 
 .back{
@@ -50,6 +38,58 @@ display:inline-block;
 margin-bottom:30px;
 text-decoration:none;
 color:#2563eb;
+}
+
+.timeline{
+border-left:4px solid #3b82f6;
+padding-left:30px;
+margin-top:40px;
+}
+
+.event{
+margin-bottom:50px;
+}
+
+.year{
+font-weight:bold;
+color:#2563eb;
+margin-bottom:6px;
+font-size:1.1rem;
+}
+
+.event h3{
+margin:4px 0;
+}
+
+.highlight{
+background:#eef4ff;
+padding:20px;
+border-radius:10px;
+margin:30px 0;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.video{
+margin:40px 0;
+text-align:center;
+}
+
+iframe{
+max-width:100%;
+border-radius:8px;
 }
 
 </style>
@@ -62,53 +102,172 @@ color:#2563eb;
 
 <a class="back" href="index.html">← Back to Portfolio</a>
 
-<h1>Evolution of Artificial Intelligence Timeline</h1>
+<h1>Evolution of Artificial Intelligence</h1>
+<p class="subtitle">Artifact 1 – AIML-500 Professional Portfolio</p>
+
+<div class="highlight">
+
+<p>
+Artificial Intelligence (AI) has evolved through decades of scientific discovery, technological innovation, and industrial competition.  
+This artifact presents a visual timeline highlighting the key breakthroughs, influential researchers, and technological developments that shaped modern AI and machine learning.
+</p>
+
+<p>
+The timeline also identifies periods known as <strong>AI Winters</strong>, when progress slowed due to limitations in computing power or unrealistic expectations. It concludes with the recent surge in AI capabilities enabled by deep learning, GPUs, cloud computing, and large-scale datasets.
+</p>
+
+</div>
+
+<h2>Key Milestones in Artificial Intelligence</h2>
 
 <div class="timeline">
 
 <div class="event">
 <div class="year">1950</div>
 <h3>Turing Test</h3>
-<p>Alan Turing proposes the imitation game as a test for machine intelligence.</p>
+<p>
+Alan Turing proposed the concept of evaluating machine intelligence through conversation. His famous question, “Can machines think?”, became a foundational philosophical challenge for AI research.
+</p>
 </div>
 
 <div class="event">
 <div class="year">1956</div>
 <h3>Dartmouth Conference</h3>
-<p>The field of artificial intelligence is formally introduced.</p>
+<p>
+Often considered the birth of artificial intelligence as a research field, the Dartmouth Workshop introduced the term “Artificial Intelligence.” Researchers such as John McCarthy and Marvin Minsky envisioned machines capable of reasoning and learning.
+</p>
 </div>
 
 <div class="event">
 <div class="year">1974-1980</div>
 <h3>First AI Winter</h3>
-<p>Funding declines as expectations exceed computing capabilities.</p>
+<p>
+Early optimism about AI led to unrealistic expectations. When systems failed to deliver human-level reasoning, research funding declined dramatically. Limited computing power and weak algorithms prevented progress.
+</p>
 </div>
 
 <div class="event">
 <div class="year">1997</div>
 <h3>IBM Deep Blue</h3>
-<p>Deep Blue defeats chess champion Garry Kasparov.</p>
+<p>
+IBM’s Deep Blue defeated world chess champion Garry Kasparov. This milestone demonstrated that machines could outperform humans in complex strategic tasks.
+</p>
 </div>
 
 <div class="event">
 <div class="year">2012</div>
-<h3>AlexNet Breakthrough</h3>
-<p>Deep learning dramatically improves image recognition accuracy.</p>
+<h3>AlexNet and the Deep Learning Breakthrough</h3>
+<p>
+AlexNet, developed by Geoffrey Hinton’s team, dramatically improved image recognition accuracy in the ImageNet competition. The success of GPU-based neural networks triggered the modern deep learning revolution.
+</p>
 </div>
 
 <div class="event">
 <div class="year">2016</div>
 <h3>AlphaGo</h3>
-<p>DeepMind defeats world champion Lee Sedol in Go.</p>
+<p>
+Google DeepMind’s AlphaGo defeated Go world champion Lee Sedol using reinforcement learning and neural networks. Go had long been considered too complex for machines due to its enormous number of possible board states.
+</p>
 </div>
 
 <div class="event">
 <div class="year">2022</div>
-<h3>ChatGPT</h3>
-<p>Large language models bring generative AI into mainstream use.</p>
+<h3>Generative AI and ChatGPT</h3>
+<p>
+Large Language Models (LLMs) such as GPT-3 and ChatGPT introduced new capabilities in language understanding, reasoning, and content generation. Generative AI rapidly expanded into fields such as education, healthcare, programming, and creative industries.
+</p>
 </div>
 
 </div>
+
+<h2>Major Technological Drivers of Modern AI</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>GPU Computing</h3>
+<p>
+Graphics Processing Units (GPUs) dramatically accelerated neural network training. Companies like NVIDIA built specialized hardware that enabled large-scale deep learning models.
+</p>
+</div>
+
+<div class="card">
+<h3>Cloud Computing</h3>
+<p>
+Cloud platforms from Amazon, Google, and Microsoft allow researchers to train large models using distributed computing resources and massive datasets.
+</p>
+</div>
+
+<div class="card">
+<h3>Big Data</h3>
+<p>
+Modern AI systems rely on large training datasets. The growth of the internet and digital platforms provided the data required for machine learning models to improve.
+</p>
+</div>
+
+</div>
+
+<h2>Influential Figures in AI</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Alan Turing</h3>
+<p>
+Pioneer of theoretical computer science and creator of the Turing Test.
+</p>
+</div>
+
+<div class="card">
+<h3>Geoffrey Hinton</h3>
+<p>
+Known as the “Godfather of Deep Learning,” Hinton played a central role in modern neural network development.
+</p>
+</div>
+
+<div class="card">
+<h3>Yann LeCun</h3>
+<p>
+Developer of convolutional neural networks used widely in computer vision systems.
+</p>
+</div>
+
+</div>
+
+<h2>Video Overview of AI History</h2>
+
+<div class="video">
+
+<iframe width="720" height="405"
+src="https://www.youtube.com/embed/mSd9nmPM7Vg"
+title="History of Artificial Intelligence"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</div>
+
+<h2>Research Methodology</h2>
+
+<div class="highlight">
+
+<p>
+To develop this artifact, I conducted research using academic and industry sources. The process involved identifying major historical events in AI development, evaluating credible references, and synthesizing the findings into a chronological timeline.
+</p>
+
+<p>
+Generative AI tools such as ChatGPT were used to assist with summarizing research sources, identifying milestones, and organizing the structure of the timeline. All information was verified using external references before inclusion in the artifact.
+</p>
+
+</div>
+
+<h2>References</h2>
+
+<ul>
+<li>Putchuon (2024). <em>The Entire History of Artificial Intelligence</em>. YouTube.</li>
+<li>IEEE Computer Society. <em>The Evolution of AI: From Foundations to Future Prospects</em>.</li>
+<li>Our World in Data. <em>A Brief History of Artificial Intelligence</em>.</li>
+</ul>
 
 </div>
 
