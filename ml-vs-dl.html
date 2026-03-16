@@ -73,6 +73,32 @@ font-family:monospace;
 white-space:pre-line;
 }
 
+/* NEW VISUAL ARCHITECTURE */
+
+.architecture{
+margin-top:40px;
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.arch-row{
+display:flex;
+gap:15px;
+justify-content:space-between;
+margin-top:15px;
+}
+
+.block{
+flex:1;
+background:#e6f0ff;
+padding:15px;
+text-align:center;
+border-radius:6px;
+font-weight:500;
+}
+
 </style>
 </head>
 
@@ -179,6 +205,32 @@ Data → Feature Engineering → Algorithm → Prediction
 
 Deep Learning  
 Raw Data → Neural Network Layers → Learned Features → Prediction
+
+</div>
+
+<!-- NEW VISUAL GRAPHIC -->
+
+<h2>ML vs DL Architecture Visualization</h2>
+
+<div class="architecture">
+
+<h3>Machine Learning Workflow</h3>
+
+<div class="arch-row">
+<div class="block">Data</div>
+<div class="block">Feature Engineering</div>
+<div class="block">ML Algorithm</div>
+<div class="block">Prediction</div>
+</div>
+
+<h3 style="margin-top:30px;">Deep Learning Workflow</h3>
+
+<div class="arch-row">
+<div class="block">Raw Data</div>
+<div class="block">Neural Network Layers</div>
+<div class="block">Learned Representations</div>
+<div class="block">Prediction</div>
+</div>
 
 </div>
 
