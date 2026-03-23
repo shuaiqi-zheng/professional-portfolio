@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Artifact 3 – How Machine Learning Models Learn</title>
+
+<style>
+
+body{
+font-family:system-ui,Segoe UI,Roboto;
+margin:0;
+background:#f4f6f8;
+color:#333;
+line-height:1.6;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:60px 20px;
+}
+
+h1{
+text-align:center;
+margin-bottom:10px;
+}
+
+.subtitle{
+text-align:center;
+color:#666;
+margin-bottom:40px;
+}
+
+.back{
+display:inline-block;
+margin-bottom:30px;
+text-decoration:none;
+color:#2563eb;
+}
+
+.highlight{
+background:#eef4ff;
+padding:20px;
+border-radius:10px;
+margin:30px 0;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.diagram{
+background:#eef4ff;
+padding:20px;
+border-radius:10px;
+margin-top:30px;
+font-family:monospace;
+white-space:pre-line;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<a class="back" href="index.html">← Back to Portfolio</a>
+
+<h1>How Machine Learning Models Learn</h1>
+<p class="subtitle">Artifact 3 – AIML-500 Professional Portfolio</p>
+
+<h2>Artifact Overview</h2>
+
+<div class="highlight">
+
+<p><strong>Title:</strong> How Machine Learning Models Learn</p>
+
+<p><strong>Objective:</strong>  
+To explain how machine learning models are trained across supervised, unsupervised, and reinforcement learning, and how data, algorithms, and iteration shape model performance.</p>
+
+<p><strong>Process:</strong>  
+This artifact was built by synthesizing course concepts and practical experience in data analytics, focusing on real-world examples such as fraud detection, recommendation systems, and model validation.</p>
+
+<p><strong>Tools:</strong>  
+HTML/CSS for structure and visualization. ChatGPT was used to refine explanations and organize concepts into a clear learning resource.</p>
+
+<p><strong>Value Proposition:</strong>  
+Demonstrates my ability to break down machine learning concepts into practical, real-world explanations relevant to analytics and business decision-making.</p>
+
+</div>
+
+<h2>How Models Learn</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Supervised Learning</h3>
+<p>
+The model learns from labeled data. It makes predictions, compares them to the true answer, and adjusts to reduce error. Over time, it learns patterns that generalize to new data.
+</p>
+</div>
+
+<div class="card">
+<h3>Unsupervised Learning</h3>
+<p>
+There are no labels. The model finds structure in the data, such as grouping similar users or detecting unusual behavior. It relies heavily on data quality and feature design.
+</p>
+</div>
+
+<div class="card">
+<h3>Reinforcement Learning</h3>
+<p>
+The model learns through trial and error. It takes actions, receives rewards or penalties, and improves decisions over time based on feedback.
+</p>
+</div>
+
+</div>
+
+<h2>Basic Training Process</h2>
+
+<div class="diagram">
+
+Data → Model → Prediction → Error → Update → Repeat
+
+</div>
+
+<p>
+Training is an iterative process. The model goes through the data many times, gradually improving performance. Repetition helps it stabilize and learn consistent patterns instead of random noise.
+</p>
+
+<h2>Why Algorithms Matter</h2>
+
+<div class="highlight">
+
+<p>
+Algorithms define how learning happens. They control how the model updates, what patterns it can capture, and how well it scales. Choosing the right algorithm depends on the problem, data size, and need for interpretability.
+</p>
+
+</div>
+
+<h2>Role of Data (Examples)</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Diversity</h3>
+<p>
+If data is not diverse, the model won’t generalize. For example, a fraud model trained on limited patterns will miss new fraud behaviors.
+</p>
+</div>
+
+<div class="card">
+<h3>Quantity</h3>
+<p>
+More data helps the model learn edge cases, but only if the data is clean and relevant.
+</p>
+</div>
+
+<div class="card">
+<h3>Representation</h3>
+<p>
+If certain groups or behaviors are missing, predictions can be biased or wrong in real-world use.
+</p>
+</div>
+
+</div>
+
+<h2>Real-World Perspective</h2>
+
+<div class="highlight">
+
+<p>
+In practice, models are only as good as the data and setup behind them. Poor labels, missing features, or biased samples can lead to models that perform well in testing but fail in production.  
+This is especially important in areas like fraud detection, where wrong predictions directly impact business outcomes.
+</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
