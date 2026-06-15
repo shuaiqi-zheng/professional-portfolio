@@ -62,12 +62,36 @@ color:var(--muted);
 margin-bottom:35px;
 }
 
+.buttons{
+display:grid;
+grid-template-columns:repeat(4,minmax(170px,1fr));
+gap:14px;
+max-width:900px;
+margin:0 auto;
+}
+
 .buttons a{
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
 text-decoration:none;
-margin:10px;
-padding:14px 26px;
+padding:14px 22px;
 border-radius:8px;
 font-weight:600;
+min-height:52px;
+}
+
+@media(max-width:800px){
+.buttons{
+grid-template-columns:repeat(2,minmax(150px,1fr));
+}
+}
+
+@media(max-width:480px){
+.buttons{
+grid-template-columns:1fr;
+}
 }
 
 .primary-btn{
